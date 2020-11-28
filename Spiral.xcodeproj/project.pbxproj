@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		753FC30A2572A1E700F73487 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FC3092572A1E700F73487 /* main.swift */; };
+		753FC3122572A23D00F73487 /* Field.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FC3112572A23D00F73487 /* Field.swift */; };
+		753FC3152572A26E00F73487 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FC3142572A26E00F73487 /* Cell.swift */; };
+		753FC3182572A28E00F73487 /* MyPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753FC3172572A28E00F73487 /* MyPoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		753FC3062572A1E700F73487 /* Spiral */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Spiral; sourceTree = BUILT_PRODUCTS_DIR; };
 		753FC3092572A1E700F73487 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		753FC3112572A23D00F73487 /* Field.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Field.swift; sourceTree = "<group>"; };
+		753FC3142572A26E00F73487 /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		753FC3172572A28E00F73487 /* MyPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				753FC3092572A1E700F73487 /* main.swift */,
+				753FC3112572A23D00F73487 /* Field.swift */,
+				753FC3142572A26E00F73487 /* Cell.swift */,
+				753FC3172572A28E00F73487 /* MyPoint.swift */,
 			);
 			path = Spiral;
 			sourceTree = "<group>";
@@ -119,7 +128,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				753FC3182572A28E00F73487 /* MyPoint.swift in Sources */,
+				753FC3122572A23D00F73487 /* Field.swift in Sources */,
 				753FC30A2572A1E700F73487 /* main.swift in Sources */,
+				753FC3152572A26E00F73487 /* Cell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

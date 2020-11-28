@@ -1,11 +1,12 @@
-//
-//  main.swift
-//  Spiral
-//
-//  Created by Андрэй Адамовіч on 28/11/2020.
-//
-
 import Foundation
 
-print("Hello, World!")
+// For usage in Command Line Tool in Xcode
 
+// Usage
+let firstField = Field(100)
+
+firstField.printSpiral(isAdvanced: false)
+print("                                                                                  ")
+
+let secondField = Field(100)
+secondField.printSpiral(isAdvanced: true)
